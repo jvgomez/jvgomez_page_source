@@ -8,6 +8,8 @@ SITENAME = u'JV - Science and whatever.'
 SITEURL = ''
 THEME = 'tuxlite_tbs'
 
+LOAD_CONTENT_CACHE = False
+
 PATH = 'content'
 #STATIC_PATHS = ['blog']
 
