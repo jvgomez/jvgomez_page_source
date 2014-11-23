@@ -9,4 +9,5 @@ TODO:
 - Include Google+ social link (with icon).
 - Include ResearchGate social link (with icon).
 - Include YouTube social link (with icon).
+- Include Biicode social link (with icon).
 - Look for a better About Me pic.
