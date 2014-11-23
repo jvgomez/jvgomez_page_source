@@ -41,14 +41,22 @@ def youtube(preprocessor, tag, markup):
 
     if youtube_id:
         youtube_out = """
-            <div class="videobox">
                 <iframe width="{width}" height="{height}"
                         src='http://www.youtube.com/embed/{youtube_id}'
                         frameborder='0'
                         webkitAllowFullScreen mozallowfullscreen allowFullScreen>
                 </iframe>
-            </div>
         """.format(width=width, height=height, youtube_id=youtube_id).strip()
+
+        #youtube_out = """
+        #    <div class="videobox">
+        #        <iframe width="{width}" height="{height}"
+        #                src='http://www.youtube.com/embed/{youtube_id}'
+        #                frameborder='0'
+        #                webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+        #        </iframe>
+        #    </div>
+        #""".format(width=width, height=height, youtube_id=youtube_id).strip()
     else:
         raise ValueError("Error processing input, "
                          "expected syntax: {0}".format(SYNTAX))
