@@ -19,7 +19,7 @@ STATIC_PATHS = ['images', 'files']
 PLUGIN_PATHS = ["pelican-plugins"]
 
 # Plugins activation
-PLUGINS = ["extract_toc"]
+PLUGINS = ['extract_toc', 'liquid_tags.youtube']
 MD_EXTENSIONS = (['toc'])
 
 

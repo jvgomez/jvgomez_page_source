@@ -8,15 +8,15 @@ Pelican-based static website. Feel free to use whatever you want :)
 ####DEPENDENCIES
 In order to be able to create the site with Pelican, the following dependencies must be installed:
 
-- `mdx-video` (YouTube video embedding by providing only the link).
-```bash
-$ sudo pip install mdx-video`
-```
+
 - `beautifulsoup4` (required by the extract_toc Pelican plugin)
 ```bash
 $ sudo pip install beautifulsoup4
 ```
-- `extract_toc` Pelican plugin (create tables of contents). Already included in this code.
+
+##### Third-party code included in the repo
+- `extract_toc` Pelican plugin (create tables of contents).
+- `liquid_tags` Pelican plugin (to embed YouTube videos). It required various fixes, detailed [here](https://github.com/getpelican/pelican-plugins/issues/312), [here](https://github.com/getpelican/pelican-plugins/issues/331), [here](https://github.com/getpelican/pelican-plugins/pull/321), and then modifying `youtube.py`to create `/embed/` insead of `/v/` URLs.
 
 #### Pelican theme
 The code of this site is designed to work with a self-made modification of the `tuxlite_tbs` pelican theme. You can find my version in this repo:
