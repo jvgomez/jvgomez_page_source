@@ -71,7 +71,7 @@ Category: Main
 ### Book Chapters
 1. S.Garrido, L.Moreno, J. V. Gómez, __Chapter: Motion planning using Fast Marching Squared method__, Motion and Operation Planning of Robotics Systems: Background and Practical Approaches. Springer. To be published.<br/>[PDF]({filename}/files/pubs/FM2Springer2014.pdf)
 
-2. J. Pardeiro, J. V. Gómez, D. Álvarez, L. Moreno, __Chapter: Estimación de Suelos Navegables para Interiores__, Robots Personales y Asistenciales. To be published.<br/>[PDF]({filename}/files/pubs/MISSING) - [Video](https://www.youtube.com/watch?v=Ozho3YuLc_8)
+2. J. Pardeiro, J. V. Gómez, D. Álvarez, L. Moreno, __Chapter: Estimación de Suelos Navegables para Interiores__, Robots Personales y Asistenciales. To be published.<br/>[PDF]({filename}/files/pubs/RoboCity2030.pdf) - [Video](https://www.youtube.com/watch?v=Ozho3YuLc_8)
 
 3. J.V. Gómez, S. Garrido, L. Moreno, A. Vale, F. Valente, J. Ferreira, __Chapter: Performance Study of the FM2 Planning Method for Remote Handling Operations in ITER__, 2nd Workshop on Fusion Technologies and the Contribution of TECHNOFUSIÓN, ISBN: 978-84-695-6616-9.<br/>[PDF]({filename}/files/pubs/TECHNOFUSION2012_chapter.pdf)
 
