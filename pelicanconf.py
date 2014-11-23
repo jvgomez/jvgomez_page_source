@@ -2,13 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-#AUTHOR = u'Javier V. G\xf3mez'
 AUTHOR = u'Javier V. Gómez'
-SITENAME = u'JV - Science and whatever.'
-SITEURL = ''
+SITENAME = u'JV - Science and stuff.'
+SITEURL = 'https://jvgomez.github.io/'
 THEME = 'tuxlite_tbs'
-
-LOAD_CONTENT_CACHE = False
 
 PATH = 'content'
 #STATIC_PATHS = ['blog']
@@ -28,11 +25,13 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('', 'http://github.com/jvgomez'),
+          ('', 'http://stackoverflow.com/users/2283531/javi-v'),
+          ('', 'https://www.linkedin.com/profile/view?id=105141580'),
+         )
 
 DEFAULT_PAGINATION = False
 

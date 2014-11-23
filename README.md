@@ -4,3 +4,6 @@ Output hosted at:
 http://jvgomez.github.io
 
 Pelican-based static website. Feel free to use whatever you want :)
+
+TODO:
+- Include Google+ social link (with icon).
