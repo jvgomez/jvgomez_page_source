@@ -2,18 +2,26 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+# Site setings
 AUTHOR = u'Javier V. Gómez'
 SITENAME = u'JV - Science and stuff.'
 SITEURL = 'https://jvgomez.github.io'
 #SITEURL = ''
-THEME = 'tuxlite_tbs'
-
-PATH = 'content'
-STATIC_PATHS = ['images', 'files']
-
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
+THEME = 'tuxlite_tbs'
+
+# Pelican paths
+PATH = 'content'
+STATIC_PATHS = ['images', 'files']
+
+PLUGIN_PATHS = ["pelican-plugins"]
+
+# Plugins activation
+PLUGINS = ["extract_toc"]
+MD_EXTENSIONS = (['toc'])
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
