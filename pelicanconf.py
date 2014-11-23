@@ -4,12 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Javier V. Gómez'
 SITENAME = u'JV - Science and stuff.'
-SITEURL = 'https://jvgomez.github.io/'
+SITEURL = 'https://jvgomez.github.io'
 #SITEURL = ''
 THEME = 'tuxlite_tbs'
 
 PATH = 'content'
-#STATIC_PATHS = ['blog']
+STATIC_PATHS = ['images', 'files']
 
 TIMEZONE = 'Europe/Paris'
 
