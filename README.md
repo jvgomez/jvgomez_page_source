@@ -11,3 +11,4 @@ TODO:
 - Include YouTube social link (with icon).
 - Include Biicode social link (with icon).
 - Look for a better About Me pic.
+- Include LinkedIn and GitHub interactive banners in about me.

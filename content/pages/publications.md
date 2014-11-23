@@ -1,6 +1,8 @@
 Title: Publications
 Category: Main
 
+[TOC]
+
 ### JCR-indexed
 1. J.V. Gómez, A. Vale, S. Garrido and L. Moreno, __Performance analysis of Fast Marching-based motion planning for autonomous mobile robots in ITER scenarios__, Robotics and Autonomous Systems, Vol.63, Part 1, pp. 36-49, 2015. Impact factor (2013): 1.105, Q3.<br/>[PDF]({filename}/files/pubs/fm2atiter.pdf) - [Video](https://www.youtube.com/watch?v=YiIq7pzgW9k)
 
@@ -75,11 +77,11 @@ Category: Main
 
 <hr>
 
-### Master's Thesis
+### Master's Thesis<a name="msc"></a>
 
 Some of the code of my thesis is available [[Fast Marching Square|here]]. For any  additional resource please [[About me|contact me]]. I have not problem on sharing all my stuff, but it would require some documentation before sharing :)
 
 
-- __ Advanced Applications of the Fast Marching Square Planning Method__, Carlos III University of Madrid, 23rd November, 2012.<br/>[PDF]({filename}/files/pubs/JVGG_Masters_Thesis.pdf Document)
+- __ Advanced Applications of the Fast Marching Square Planning Method__, Carlos III University of Madrid, 23rd November, 2012.<br/>[PDF]({filename}/files/pubs/JVGG_Masters_Thesis.pdf)
 
 <hr>

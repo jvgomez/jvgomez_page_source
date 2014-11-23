@@ -10,8 +10,11 @@ My name is Javier V. Gómez. I was born on 1987 in Spain. Currently, I live in M
 * [YouTube channel](http://www.youtube.com/user/ingjotauve)
 * [ResearchGate profile](https://www.researchgate.net/profile/Javier_Gomez11)
 
+[Open source report card](https://osrc.dfm.io/jvgomez/)
+
 You can download my [full CV]({filename}/files/docs/JVG_CV.pdf) or check out [my publications]({filename}publications.md).
 
+## Info
 I am PhD student in the [RoboticsLab](http://roboticslab.uc3m.es/roboticslab/) at [Carlos III University of Madrid](http://www.uc3m.es/Home).
 
 My research interests interests:
