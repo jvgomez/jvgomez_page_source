@@ -22,6 +22,8 @@ PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ['extract_toc', 'liquid_tags.youtube']
 MD_EXTENSIONS = (['toc'])
 
+RESPONSIVE_IMAGES = True
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
