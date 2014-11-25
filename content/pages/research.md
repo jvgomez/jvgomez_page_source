@@ -57,12 +57,12 @@ I did not focus too much in this are. These are some small works I did to introd
 If you are interested, please check out the [Other Works]({filename}/pages/other_works.md) section to find more works in this area.
 
 
-{% youtube n1OJ9bcBAIg 425 425 %} {% youtube RaVahqgE2-c 425 425 %}
+{% youtube n1OJ9bcBAIg 400 400 %} {% youtube RaVahqgE2-c 400 400 %}
 
 ### Some Fun
 Some geeky stuff I developed during my Master's degree. An open-source hardware/software, 3D-printed minirobot which is able to follow a circuit (I won the class competition!) and an Arduino-based teleoperation framework (Arduino --WLAN--> PC --TCP/IP--> Servo)
 
-{% youtube xKkJGlzjeCM 425 425 %} {% youtube PcBgaaDEmk0 425 425 %}
+{% youtube xKkJGlzjeCM 400 400 %} {% youtube PcBgaaDEmk0 400 400 %}
 
 ## SGPS
 <div class="figure align-right" style="width: 250px; height: auto;">

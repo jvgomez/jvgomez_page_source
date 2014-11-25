@@ -32,6 +32,7 @@ The underlying Fast Marching code relies on a rather complex [__nDGridMap class_
 
 ## Are you in a hurry? Try this:
 
+    :::bash
     $ mkdir fmtutorial
     $ cd fmtutorial
     $ bii init
@@ -66,7 +67,7 @@ Then, Fast Marching Method will run and you will see 2 outputs:
 -->
 </div>
 
-And my console out was the following:
+And my console output was the following:
 
 <pre><span style="color:#000000">jabuntu14@ubuntu:~/bii_ws/fmtutorial$ ./bin/jvgomez_fmexamples_main</span><span style="color:#0000ff">
 <b>[INFO] Click in the initial and goal points.
@@ -99,14 +100,15 @@ With the set of commands give above we:
 
 * Automatically get all the required dependencies, configure the CMake project and compile it. We actually have very few dependencies:
 
-<pre>
-#include "jvgomez/fmm/fmm/fastmarching.hpp" <-- Fast Marching algorithm
-#include "jvgomez/fmm/io/maploader.hpp"     <-- To load a map from an image
-#include "jvgomez/fmm/io/gridplotter.hpp"   <-- To plot a map
-#include "jvgomez/fmm/io/gridpoints.hpp"    <-- To enable start and goal selection by clicking
-#include "jvgomez/fmm/gradientdescent/gradientdescent.hpp" <-- Gradient descent algorithm
-</pre>
-</pre>
+<!-- -->
+
+    :::cpp
+    #include "jvgomez/fmm/fmm/fastmarching.hpp" // Fast Marching
+    #include "jvgomez/fmm/io/maploader.hpp"     // Load map from image
+    #include "jvgomez/fmm/io/gridplotter.hpp"   // Plot map
+    #include "jvgomez/fmm/io/gridpoints.hpp"    // Enable point selection by clicking
+    #include "jvgomez/fmm/gradientdescent/gradientdescent.hpp" // Gradient descent
+
 
 However, these files recursively have some other dependencies: CImg and other jvgomez blocks. Biicode manages all that __automatically__ so all dependencies are obtained and the CMake project is successfully created.
 
@@ -121,6 +123,7 @@ with your favourite editor the `main.cpp` file and carry out the following modif
 
 And then, with a terminal open in the fmtutorial folder (as before), type the following commands:
 
+	:::bash
     $ bii find
     $ bii cpp:build
     $ ./bin/jvgomez_fmexamples_main
@@ -145,12 +148,14 @@ Therefore, the main code blocks are the following:
 
 1. First, we declare the constant ndims and some other additional variables.
 
+        :::cpp
         constexpr int ndims = 2; // Setting two dimensions.
         time_point<std::chrono::system_clock> start, end;
         double time_elapsed;`
 
 2. We set the path the the file to open (hardcoded in this case). We also create a `nDGridMap` instance. Note that two policies (template parameters) are required: which kind of cells is the gridmap going to hold and how many dimensions. However, we do not know yet the size of each dimension. That depends on the map to be loaded, so we use the `MapLoader` static class to parse the map (binary image file) into a 2D `nDGridMap`. `fm2_sources` is an auxiliar variable useful only for Fast Marching Square. It keeps those indices in the map which are obstacles.
 
+        :::cpp
         // Loading map and saving it into a grid.
         string filename("blocks/jvgomez/fmexamples/data/map.png");
         nDGridMap<FMCell, ndims> grid;
@@ -159,6 +164,7 @@ Therefore, the main code blocks are the following:
 
 3. Next, we want to introduce by clicking the start and goal points and we use the cool `console` static class to give nice console output. Since we know the dimensions of the map (2) we can use `std::arrays` to store the coordiantes of the initial and goal points. `coords_init` will be an array [x_init, y_init] and `coords_goal` [x_goal, y_goal]. Finally, `GridPoints` class is used: it plots the map and ask for the points to the user.
 
+		:::cpp
         // Selecting initial and goal point.
         console::info("Click in the initial and goal points.");
         std::array<int, ndims> coords_init, coords_goal;
@@ -166,6 +172,7 @@ Therefore, the main code blocks are the following:
 
 4. Before proceeding with the `FastMarching` algorithm, we first need to convert from coordinates to indices. The n-dimensional grid is actually a 1D vector so its cells have to be handled through indicies. Fortunatelly, the `nDGridMap` class contains the `coord2idx()` method which takes care of that for us:
 
+		:::cpp
         vector<int> init_points;
         int idx, goal;
         grid.coord2idx(coords_init, idx);
@@ -174,6 +181,7 @@ Therefore, the main code blocks are the following:
 
 5. Now we can set the `FastMarching` instance! We create a `FastMarching` object with the kind of grid as policy. We then set the specific grid object, the initial and goal points (indices) and then we are ready to call `computeFM()`!. Some additional code is included to measure the elapsed time in the computation:
 
+		:::cpp
         FastMarching< nDGridMap<FMCell, ndims> > fmm;
         fmm.setEnvironment(&grid);
             start = system_clock::now();
@@ -185,6 +193,7 @@ Therefore, the main code blocks are the following:
 
 6. We also want to get the path, so the `GradientDescent` class is called. `Path` typename is actually a vector of 2D arrays, something like [x1 y1; x2 y2; x3 y3...] containing the path points. `path_velocity` stores the velocities profile for the given path (something out of focus for this tutorial). Again the type of `nDGridMap` is given as template parameter so `GradientDescent` knows how to do its work. Finally, the `apply()` method is called from the goal point:
 
+		:::cpp
         typedef typename std::vector< std::array<double, ndims> > Path;
         Path path;
         std::vector <double> path_velocity; // Velocities profile
@@ -194,6 +203,7 @@ Therefore, the main code blocks are the following:
 
 7. Finally, let us make it beautiful and plot some results using the `GridPlotter` class:
 
+		:::cpp
         console::info("Plotting the results: Fast Marching distances map and path.");
         GridPlotter::plotArrivalTimes(grid);
         GridPlotter::plotMapPath(grid,path);
@@ -202,11 +212,13 @@ Therefore, the main code blocks are the following:
 
 Take a look at [these other examples](https://www.biicode.com/jvgomez/jvgomez/fm2examples/master/3/test_fm2.cpp). In this case, the gridmap type has been renamed so a specific type of gridmap looks like an independent class. Instead of using `nDGridMap<FMCell, 2>`, we can just say `FMGrid2D` by the corresponding typedef:
 
-     typedef nDGridMap<FMCell, ndims2> FMGrid2D;
+	:::cpp
+    typedef nDGridMap<FMCell, ndims2> FMGrid2D;
 
 So the calls can be simplified:
 
-    FastMarching< nDGridMap<FMCell, ndims> > fmm;    --->     FastMarching< FMGrid2D > fmm;
+	:::cpp
+    FastMarching< nDGridMap<FMCell, ndims> > fmm; --->  FastMarching< FMGrid2D > fmm;
 
 
 ## Contact

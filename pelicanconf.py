@@ -19,11 +19,11 @@ STATIC_PATHS = ['images', 'files']
 PLUGIN_PATHS = ["pelican-plugins"]
 
 # Plugins activation
-PLUGINS = ['extract_toc', 'liquid_tags.youtube']
-MD_EXTENSIONS = (['toc'])
+PLUGINS = ['extract_toc', 'liquid_tags.youtube', 'better_code_samples']
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'toc']
 
 RESPONSIVE_IMAGES = True
-
+LOAD_CONTENT_CACHE = False
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

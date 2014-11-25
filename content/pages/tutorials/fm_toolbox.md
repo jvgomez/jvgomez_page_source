@@ -17,51 +17,41 @@ Here I provide the basic information to use the codes I provide based on this to
 
 
 ### System Prerequisites
-- Set your [Matlab supported compiler](http://www.mathworks.es/support/compilers/R2013b/index.html?sec=win64).
+- Set your [Matlab supported compiler](http://www.mathworks.es/support/compilers/R2013b/index.html?sec=win64). 
 - For Linux users, install `build-essential` package:
 
-```
-sudo apt-get install build-essential
-```
-
+	    :::bash
+        $ sudo apt-get install build-essential
 
 ## Compiling the toolbox
-- Unzip it in the folder you want and set the Matlab workspace into that folder.
-- Before compiling the mex functions, you will probably need to set up your compiler:
+- Unzip it in the folder you want and set the Matlab workspace into that folder. 
+- Before compiling the mex functions, you will probably need to set up your compiler.
 
-	```
-    mex -setup
-	```
-
+        :::bash
+        >> mex -setup
 And follow the instructions. Working with Ubuntu, the options were:
 
-    The options files available for mex are:
-    1: /usr/local/MATLAB/R2012b/bin/mexopts.sh :
-        Template Options file for building gcc MEX-files
-    0: Exit with no changes
+    	The options files available for mex are:
+    	1: /usr/local/MATLAB/R2012b/bin/mexopts.sh :
+    	    Template Options file for building gcc MEX-files
+    	0: Exit with no changes
 In my case it wasn't necessary to configure anything. In Windows, this could be problematic... Google will help  you :)
 
-- The next step is to run the compile_mex.m script. For that, just type the command:
+- Run the compile_mex.m script. For that, just type the command:
 
-    ```
-    compile_mex
-    ```
-
- But you will get the following errors:
-
+        :::bash
+        compile_mex
+But you will get the following errors:
 <pre><span style="color:#ff0000">Error using mex (line 206)
 Unable to complete successfully.
 Error in compile_mex (line 7)
 mex mex/anisotropic-fm//perform_front_propagation_anisotropic.cpp
 </span></pre>
-
- To solve this error, open the compile_mex.m file and comment lines 7 and 8:
-
+To solve this error, open the compile_mex.m file and comment lines 7 and 8:
 <pre><span style="color:#008000">% mex mex/anisotropic-fm//perform_front_propagation_anisotropic.cpp
 % mex mex/anisotropic-fm-feth/fm2dAniso.cpp
 </span></pre>
-
- And you will find that everything compiles OK now (although you will get many warnings, probably).
+And you will find that everything compiles OK now (although you will get many warnings, probably).
 
 ## Setting the Matlab's Path
 The next step is to configure the path of Matlab. For that, you will need to include to your path the following folders:
@@ -77,7 +67,6 @@ The next step is to configure the path of Matlab. For that, you will need to inc
 </div>
 
 ## Testing
-
 Go to `<path_to_toolbox>/toolbox_fast_marching/tests` and run `test_fast_marching_2d.m` but applying changing line 28 to the following:
 
     end_points = end_points';
