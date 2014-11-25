@@ -28,10 +28,12 @@ I am also investigating _sampling-based_ algorithms, focusing on the __Fast Marc
 - Try to make the algorithm as fast a possible.
 - Take into account kinematic (and dynamic) constrains.
 
+The work in this area is done in close collaboration with [Marco Pavone's Autonomous Systems Lab](http://web.stanford.edu/~pavone/) from [Stanford University](http://stanford.edu/).
+
 <div class="figure align-left" style="width: 100%; height: auto;">
 <img alt="Path planning example" src="{filename}/images/fmt.png" style="width: 100%; height: auto;"/>
 <p></p>
-<p class="caption">Fast Marching Trees in a 3D (position+orienation) scenario.</p>
+<p class="caption">Fast Marching Trees in a 3D (position+orienation) scenario in OMPLapp.</p>
 <!--
 <p class="legend"> This is a legend</p>
 -->
