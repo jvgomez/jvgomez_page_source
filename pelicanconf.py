@@ -6,11 +6,12 @@ from __future__ import unicode_literals
 AUTHOR = u'Javier V. Gómez'
 SITENAME = u'JV - Science and stuff.'
 SITEURL = 'https://jvgomez.github.io'
-AUTHOR_URL = ''
+#AUTHOR_URL = ''
 #SITEURL = ''
 TIMEZONE = 'Europe/Madrid'
 
 GOOGLE_ANALYTICS = 'UA-21664985-2'
+DISQUS_SITENAME = 'jvgomez'
 
 DEFAULT_LANG = u'en'
 THEME = 'tuxlite_tbs'
