@@ -18,7 +18,7 @@ THEME = 'tuxlite_tbs'
 
 # Pelican paths
 PATH = 'content'
-STATIC_PATHS = ['images', 'files', 'extra']
+STATIC_PATHS = ['images', 'files', 'extra/robots.txt']
 PLUGIN_PATHS = ["pelican-plugins"]
 
 #EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
