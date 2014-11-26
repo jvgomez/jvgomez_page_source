@@ -7,7 +7,9 @@ AUTHOR = u'Javier V. Gómez'
 SITENAME = u'JV - Science and stuff.'
 SITEURL = 'https://jvgomez.github.io'
 #SITEURL = ''
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Madrid'
+
+GOOGLE_ANALYTICS = 'UA-21664985-2'
 
 DEFAULT_LANG = u'en'
 THEME = 'tuxlite_tbs'
@@ -15,8 +17,8 @@ THEME = 'tuxlite_tbs'
 # Pelican paths
 PATH = 'content'
 STATIC_PATHS = ['images', 'files']
-
 PLUGIN_PATHS = ["pelican-plugins"]
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Plugins activation
 PLUGINS = ['extract_toc', 'liquid_tags.youtube', 'better_code_samples']
