@@ -41,7 +41,7 @@ Category: Main
 
 12. J.V. Gómez, D. Álvarez, S. Garrido and L. Moreno, __Kinesthetic Teaching via Fast Marching Square__, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2012), Vila Moura, Portugal. October, 2012.<br/>[PDF]({filename}/files/pubs/IROS2012_paper.pdf)
 
-13. J.V. Gómez, F.E. Sandnes and B. Fernández, __Open Source Global Positioning System for Individuals with Reduced Orientation and Navegation Abilites__, International Conference on Software Development for Enhancing Accessibility and Fighting Info-exclusion (DSAI2012), Douro Region, Portugal. July, 2012.<br/>[PDF Abstract]({filename}/files/pubs/DSAI2012_abstract_poster.pdf) - [Poster](<br/>[PDF]({filename}/files/pubs/DSAI2012_poster.tif)
+13. J.V. Gómez, F.E. Sandnes and B. Fernández, __Open Source Global Positioning System for Individuals with Reduced Orientation and Navegation Abilites__, International Conference on Software Development for Enhancing Accessibility and Fighting Info-exclusion (DSAI2012), Douro Region, Portugal. July, 2012.<br/>[PDF Abstract]({filename}/files/pubs/DSAI2012_abstract_poster.pdf) - [Poster]({filename}/files/pubs/DSAI2012_poster.tif)
 
 14. J.V. Gómez and F.E. Sandnes, __RoboGuideDog: Guiding Blind Users Through Physical Environments with Laser Range Scanners__, International Conference on Software Development for Enhancing Accessibility and Fighting Info-exclusion (DSAI2012), pp. 218-225,  Douro Region, Portugal. July, 2012.<br/>[PDF]({filename}/files/pubs/DSAI2012_paper.pdf) - [Presentation]({filename}/files/pubs/DSAI2012_presentation.rar)
 

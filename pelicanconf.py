@@ -5,9 +5,9 @@ from __future__ import unicode_literals
 # Site setings
 AUTHOR = u'Javier V. Gómez'
 SITENAME = u'JV - Science and stuff.'
-SITEURL = 'https://jvgomez.github.io'
+#SITEURL = 'https://jvgomez.github.io'
 #AUTHOR_URL = ''
-#SITEURL = ''
+SITEURL = ''
 TIMEZONE = 'Europe/Madrid'
 
 GOOGLE_ANALYTICS = 'UA-21664985-2'
@@ -18,11 +18,11 @@ THEME = 'tuxlite_tbs'
 
 # Pelican paths
 PATH = 'content'
-STATIC_PATHS = ['images', 'files', 'extra/CNAME']
+STATIC_PATHS = ['images', 'files', 'extra']
 PLUGIN_PATHS = ["pelican-plugins"]
 
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
-
+#EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
 # Plugins activation
 PLUGINS = ['extract_toc', 'liquid_tags.youtube', 'better_code_samples']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'toc']
