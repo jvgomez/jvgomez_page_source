@@ -2,43 +2,29 @@ Title: Other Works
 Category: Main
 
 [TOC]
-### Students' Theses
-#### 2014
-[Javier Moreno]({filename}/pages/other_works/theses/jmoreno.md)
-Automatic 3D room map creation
 
-[Javier Azores]({filename}/pages/other_works/theses/jazores.md)
-Delta-E divergence floor segmentation and estimation.
+## Students' Theses
+### 2014
+|		 |		  |		   |
+|:------:|:------:|:------:|
+| [Javier Moreno]({filename}/pages/other_works/theses/jmoreno.md)<br>Indoor 3D mapping<br><img src="{filename}/images/theses/jmoreno.png" style="width: 200px; height: auto;"/> | [Javier Azores]({filename}/pages/other_works/theses/jazores.md)<br>Floor segmentation<br><img src="{filename}/images/theses/jazores.png" style="width: 200px; height: auto;"/> | [Raúl Merino]({filename}/pages/other_works/theses/rmerino.md)<br>Manfred URDF<br><img src="{filename}/images/theses/rmerino.png" style="width: 200px; height: auto;"/> |
+| [David Palomo]({filename}/pages/other_works/theses/dpalomo.md)<br>FM2app<br><img src="{filename}/images/theses/dpalomo.png" style="width: 200px; height: auto;"/> | [Pablo Muñoz]({filename}/pages/other_works/theses/pmunoz.md)<br>FMM O(n)<br><img src="{filename}/images/theses/pmunoz.png" style="width: 200px; height: auto;"/> | [Luis Panes]({filename}/pages/other_works/theses/lpanes.md)<br>Z1 SGPS<br><img src="{filename}/images/theses/lpanes.png" style="width: 200px; height: auto;"/> |
+| [Miguel Mora]({filename}/pages/other_works/theses/mmora.md)<br>MoveIt! Benchmark<br><img src="{filename}/images/theses/mmora.png" style="width: 200px; height: auto;"/> |
 
-[Raúl Merino]({filename}/pages/other_works/theses/rmerino.md)
-Manfred robot URDF creation
+### 2013
+|		 |		  |		   |
+|:------:|:------:|:------:|
+| [Raúl Villajos]({filename}/pages/other_works/theses/rvillajos.md)<br>ROS 3D laser<br><img src="{filename}/images/theses/rvillajos.png" style="width: 200px; height: auto;"/> | [Isaac Rivero ]({filename}/pages/other_works/theses/irivero.md)<br>SGPS library<br><img src="{filename}/images/theses/irivero.png" style="width: 200px; height: auto;"/> | [Jose Pardeiro]({filename}/pages/other_works/theses/jpardeiro.md)<br>Floor learning<br><img src="{filename}/images/theses/jpardeiro.png" style="width: 200px; height: auto;"/> |
 
-[David Palomo]({filename}/pages/other_works/theses/dpalomo.md)
-FM2app: Matlab GUI for FM2
+### 2012
+|		 |		  |		   |
+|:------:|:------:|:------:|
+| [Adrián Jiménez]({filename}/pages/other_works/theses/ajimenez.md)<br>Robot Formation<br><img src="{filename}/images/theses/ajimenez.png" style="width: 200px; height: auto;"/> |
 
-[Pablo Muñoz]({filename}/pages/other_works/theses/pmunoz.md)
-FMM O(n) implementation an comparison
-
-[Luis Panes]({filename}/pages/other_works/theses/lpanes.md)
-Z1 mote SGPS implementation
-[Miguel Mora]({filename}/pages/other_works/theses/mmora.md)
-Path planning benchmarking in MoveIt!
-#### 2013
-[Raúl Villajos]({filename}/pages/other_works/theses/rvillajos.md)
-3D laser scanner in ROS.
-[Isaac Rivero ]({filename}/pages/other_works/theses/irivero.md)
-SGPS library.
-[Jose Pardeiro]({filename}/pages/other_works/theses/jpardeiro.md)
-Walkable ground learning and estimation.
-#### 2012
-[Adrián Jiménez]({filename}/pages/other_works/theses/ajimenez.md)
-Centralized control for robot formations.
-
-
-### n-Dimensional grid maps: formulation and implementation
+##n-Dimensional grid maps: formulation and implementation
 - [nD Grid Maps]({filename}/pages/other_works/ndgridmap.md)
 
-### 3D Mapping
+## 3D Mapping
 - [3D Mapping]({filename}/pages/other_works/3dmapping.md)
 
 
@@ -48,5 +34,5 @@ Centralized control for robot formations.
 <p class="caption">NS1 printbot</p>
 </div>
 
-### Printbots
+## Printbots
 * NS1 printbot (open source software/hardware robot) programmed to navigate through a corridor. [Check it out here!](http://www.thingiverse.com/thing:23719)

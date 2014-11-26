@@ -1,5 +1,6 @@
 Title: Hokuyo-Dynamixel Coupling for 3D Mapping
 Category: Other Works
+Status: hidden
 
 [TOC]
 
@@ -15,7 +16,7 @@ Category: Other Works
 <p class="caption">3D point cloud visualization, TV was there recording!</p>
 </div>
 
-My 3D Mapping device is composed by a Hokuyo UTM30-LX (Top-URG) rangefinder and a Robotis Dynamixel EX-106+ motor. I rely on [ROS](http://www.ros.org/) in order to use both devices.  [Raúl Villajos]({filename}/pages/works/theses/rvillajos.md) did some specific ROS nodes.
+My 3D Mapping device is composed by a Hokuyo UTM30-LX (Top-URG) rangefinder and a Robotis Dynamixel EX-106+ motor. I rely on [ROS](http://www.ros.org/) in order to use both devices.  [Raúl Villajos]({filename}/pages/other_works/theses/rvillajos.md) did some specific ROS nodes.
 
 {% youtube n1OJ9bcBAIg 400 400 %}
 

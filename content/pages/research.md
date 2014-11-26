@@ -9,7 +9,7 @@ Category: Main
 <img alt="Path planning example" src="{filename}/images/pathplanning.png" style="width: 200px; height: auto;"/>
 <p></p>
 <p class="caption">Fast Marching in a triangulation.</p>
-<!--
+<!--f
 <p class="legend"> This is a legend</p>
 -->
 </div>
@@ -47,8 +47,8 @@ I did not focus too much in this are. These are some small works I did to introd
 
 If you are interested, please check out the [Other Works]({filename}/pages/other_works.md) section to find more works in this area. Especially:
 
-- [Learning-based floor segmentation]({filename}/pages/other_works/jpardeiro.md)
-- [Room 3D map extraction]({filename}/pages/other_works/jmoreno.md)
+- [Learning-based floor segmentation]({filename}/pages/other_works/theses/jpardeiro.md)
+- [Room 3D map extraction]({filename}/pages/other_works/theses/jmoreno.md)
 
 <div class="figure align-left" style="width: 100%; height: auto;">
 <img alt="3D pointcloud of a corridor." src="{filename}/images/corridor3D.png" style="width: 100%; height: auto;"/>
