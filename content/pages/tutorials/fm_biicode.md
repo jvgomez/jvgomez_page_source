@@ -14,7 +14,7 @@ Fast Marching Square substitutes the term _distance_ by _arrival time_. In this 
 
 If you interested in deeply understand the algorithms, take a look at my [Research section]({filename}/pages/research/fm2.md).
 
-The underlying Fast Marching code relies on a rather complex [__nDGridMap class__]({filename}/other_works/ndgridmap.md): A datastructure representing a n dimensional grid map.
+The underlying Fast Marching code relies on a rather complex [__nDGridMap class__]({filename}/pages/other_works/ndgridmap.md): A datastructure representing a n dimensional grid map.
 
 ## Requirements
 
@@ -43,7 +43,7 @@ The underlying Fast Marching code relies on a rather complex [__nDGridMap class_
 Click in any two white points of the map. In my case I clicked in the red circles (first start at top-left, then goal at bottom-right):
 
 <div class="figure align-left" style="width: 100%; height: auto;">
-<img alt="Path planning example" src="{filename}/images/fm_biicode/map.png" style="width: 100%; height: auto;"/>
+<img alt="Input map" src="{filename}/images/fm_biicode/map.png" style="width: 100%; height: auto;"/>
 <p></p>
 <p class="caption">Input map used in the example with the start and goal regions marked as red circles.</p>
 <!--
@@ -58,8 +58,8 @@ Then, Fast Marching Method will run and you will see 2 outputs:
 * Second (close the previous window to continue with the program), the final path obtained when gradient descent is applied from the given start point.
 
 <div class="figure align-left" style="width: 100%; height: auto;">
-<img alt="Path planning example" src="{filename}/images/fm_biicode/distances.png" style="width: 49%; height: auto;"/>
-<img alt="Path planning example" src="{filename}/images/fm_biicode/path.png" style="width: 49%; height: auto;"/>
+<img alt="FMM distances map" src="{filename}/images/fm_biicode/distances.png" style="width: 49%; height: auto;"/>
+<img alt="FMM path" src="{filename}/images/fm_biicode/path.png" style="width: 49%; height: auto;"/>
 <p></p>
 <p class="caption">Left - FMM distances map. Right - Path obtained running gradient descent.</p>
 <!--
@@ -80,7 +80,7 @@ Congratulations! You just created, configured, compiled and run a path planning 
 ### Let's take a look at what happened
 
 <div class="figure align-right" style="width: 33%; height: auto;">
-<img alt="Path planning example" src="{filename}/images/fm_biicode/tree.png" style="width: 100%; height: auto;"/>
+<img alt="Biicode folder directory tree" src="{filename}/images/fm_biicode/tree.png" style="width: 100%; height: auto;"/>
 <p></p>
 <p class="caption">Biicode folder directory tree.</p>
 <!--
@@ -131,7 +131,7 @@ And then, with a terminal open in the fmtutorial folder (as before), type the fo
 Et voilá! You have now the Fast Marching Square algorithm running and Biicode managed the dependenies for you (since a new block is required). The new path should look something like:
 
 <div class="figure align-right" style="width: 100%; height: auto;">
-<img alt="Path planning example" src="{filename}/images/fm_biicode/path2.png" style="width: 100%; height: auto;"/>
+<img alt="FM2 path" src="{filename}/images/fm_biicode/path2.png" style="width: 100%; height: auto;"/>
 <p></p>
 <p class="caption">Fast Marching Square resulting path. Dependencies were automatically managed by Biicode</p>
 <!--

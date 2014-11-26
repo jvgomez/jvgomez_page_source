@@ -31,7 +31,7 @@ I am also investigating _sampling-based_ algorithms, focusing on the __Fast Marc
 The work in this area is done in close collaboration with [Marco Pavone's Autonomous Systems Lab](http://web.stanford.edu/~pavone/) from [Stanford University](http://stanford.edu/).
 
 <div class="figure align-left" style="width: 100%; height: auto;">
-<img alt="Path planning example" src="{filename}/images/fmt.png" style="width: 100%; height: auto;"/>
+<img alt="Fast Marching Trees example" src="{filename}/images/fmt.png" style="width: 100%; height: auto;"/>
 <p></p>
 <p class="caption">Fast Marching Trees in a 3D (position+orienation) scenario in OMPLapp.</p>
 <!--
@@ -42,20 +42,22 @@ The work in this area is done in close collaboration with [Marco Pavone's Autono
 <br>
 <br>
 
-<div class="figure align-left" style="width: 200px; height: auto;">
-<img alt="Path planning example" src="{filename}/images/missing.png" style="width: 200px; height: auto;"/>
+### 3D Point Cloud Processing and Environment Modeling
+I did not focus too much in this are. These are some small works I did to introduce myself in this fascinating world. Most of my work in this area is as a Bachelor's thesis advisor. However, my last goal is to combine environment modeling with sampling-based planners. The same datastructures and basic algorithms (KD-trees, Nearest-Neighbours, etc) are used in both fields, so there should be a way to get an advantage of this.
+
+If you are interested, please check out the [Other Works]({filename}/pages/other_works.md) section to find more works in this area. Especially:
+
+- [Learning-based floor segmentation]({filename}/pages/other_works/jpardeiro.md)
+- [Room 3D map extraction]({filename}/pages/other_works/jmoreno.md)
+
+<div class="figure align-left" style="width: 100%; height: auto;">
+<img alt="3D pointcloud of a corridor." src="{filename}/images/corridor3D.png" style="width: 100%; height: auto;"/>
 <p></p>
-<p class="caption">Fast Marching in a triangulation.</p>
+<p class="caption">3D pointcloud of a corridor.</p>
 <!--
 <p class="legend"> This is a legend</p>
 -->
 </div>
-
-### 3D Point Cloud Processing and Environment Modeling
-I did not focus too much in this are. These are some small works I did to introduce myself in this fascinating world. Most of my work in this area is as a Bachelor's thesis advisor. However, my last goal is to combine environment modeling with sampling-based planners. The same datastructures and basic algorithms (KD-trees, Nearest-Neighbours, etc) are used in both fields, so there should be a way to get an advantage of this.
-
-If you are interested, please check out the [Other Works]({filename}/pages/other_works.md) section to find more works in this area.
-
 
 {% youtube n1OJ9bcBAIg 400 400 %} {% youtube RaVahqgE2-c 400 400 %}
 

@@ -24,7 +24,7 @@ Here I provide the basic information to use the codes I provide based on this to
         $ sudo apt-get install build-essential
 
 ## Compiling the toolbox
-- Unzip it in the folder you want and set the Matlab workspace into that folder. 
+- Unzip it in the folder you want and set the Matlab workspace into that folder.
 - Before compiling the mex functions, you will probably need to set up your compiler.
 
         :::bash
