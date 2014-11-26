@@ -25,6 +25,7 @@ My research interests interests:
 Side interests include open-source robotics, mainly [OMPL](http://ompl.kavrakilab.org), and GPS-less global positioning systems, [SGPS](http://sgpsproject.sourceforge.net/wiki).
 
 My hobbies are mountain biking, hiking and travelling. In fact, I have lived in:
+
 1. Madrid, Spain.
 2. Oslo, Norway.
 3. Abu Dhabi, United Arab Emirates.
