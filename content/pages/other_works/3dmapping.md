@@ -39,6 +39,7 @@ Following the OpenSource philosophy (both hardware and software) I've uploaded d
 Designed to be printed with a professional 3D printer (or a very good one).
 
 - [Download source]({filename}/files/works/3dmapping/3dprint_pro.dwg)
+- [Download STL]({filename}/files/works/3dmapping/3dprint_pro.stl)
 
 <div class="figure align-center" style="width: 75%; height: auto;">
 <img alt="3D Model" src="{filename}/images/3dmapping/3dprint_pro.png" style="width: 49%; height: auto;"/>
@@ -68,12 +69,13 @@ Perfect for low-cost 3D printers. Created with the extint Object Objected Mechan
 <br><br><br><br>
 <br><br><br><br>
 <br><br><br><br>
-<br>
+<br><br>
 
 ### 3D Model - Minimalist
 Perfect to be manufactured with a metal sheet.
 
 - [Download source]({filename}/files/works/3dmapping/metal_simple.dwg)
+- [Download STL]({filename}/files/works/3dmapping/metal_simple.stl)
 
 <div class="figure align-center" style="width: 75%; height: auto;">
 <img alt="3D Model" src="{filename}/images/3dmapping/metal_simple.png" style="width: 49%; height: auto;"/>
