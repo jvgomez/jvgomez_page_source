@@ -18,8 +18,9 @@ THEME = 'tuxlite_tbs'
 
 # Pelican paths
 PATH = 'content'
-STATIC_PATHS = ['images', 'files']
+STATIC_PATHS = ['images', 'files', 'extra/CNAME']
 PLUGIN_PATHS = ["pelican-plugins"]
+
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Plugins activation
