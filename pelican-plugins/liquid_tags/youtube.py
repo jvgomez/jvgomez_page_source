@@ -42,7 +42,7 @@ def youtube(preprocessor, tag, markup):
     if youtube_id:
         youtube_out = """
                 <iframe width="{width}" height="{height}"
-                        src='http://www.youtube.com/embed/{youtube_id}'
+                        src='https://www.youtube.com/embed/{youtube_id}'
                         frameborder='0'
                         webkitAllowFullScreen mozallowfullscreen allowFullScreen>
                 </iframe>
