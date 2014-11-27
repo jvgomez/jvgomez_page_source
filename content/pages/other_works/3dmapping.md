@@ -52,7 +52,7 @@ Designed to be printed with a professional 3D printer (or a very good one).
 <br><br><br><br>
 <br><br><br><br>
 <br><br><br><br>
-<br><br><br>
+<br><br><br><br>
 
 ### 3D Model - Simplified version
 Perfect for low-cost 3D printers. Created with the extint Object Objected Mechanics Library.
