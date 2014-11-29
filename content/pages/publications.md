@@ -79,7 +79,7 @@ Category: Main
 
 ### Master's Thesis<a name="msc"></a>
 
-Some of the code of my thesis is available [[Fast Marching Square|here]]. For any  additional resource please [[About me|contact me]]. I have not problem on sharing all my stuff, but it would require some documentation before sharing :)
+Some of the code of my thesis is available [here]({filename}/pages/research/fm2.md). For any  additional resource please [contact me]({filename}/pages/about_me.md). I have not problem on sharing all my stuff, but it would require some documentation before sharing :)
 
 
 - __Advanced Applications of the Fast Marching Square Planning Method__, Carlos III University of Madrid, 23rd November, 2012.<br/>[PDF]({filename}/files/pubs/JVGG_Masters_Thesis.pdf)
