@@ -71,7 +71,7 @@ Some geeky stuff I developed during my Master's degree. An open-source hardware/
 <img alt="SGPS logo" src="{filename}/images/sgps.png" style="width: 250px; height: auto;"/>
 </div>
 
-__S__unlight intensity-based __G__lobal __P__ositioning __S__ystem. Find a way out to localize outdoor objects using energy efficient systems and algorithms. It is a continuation of my Bacherlor's thesis, collaborating with Frode Eika Sadness and Peyman Mirtaheri. Research based on the Frode's paper: _An energy efficient localization strategy for outdoor objects based on intelligent light-intensity sampling_.
+<b>S</b>unlight intensity-based <b>G</b>lobal <b>P</b>ositioning <b>S</b>ystem. Find a way out to localize outdoor objects using energy efficient systems and algorithms. It is a continuation of my Bacherlor's thesis, collaborating with Frode Eika Sadness and Peyman Mirtaheri. Research based on the Frode's paper: _An energy efficient localization strategy for outdoor objects based on intelligent light-intensity sampling_.
 
 I've created a Wiki in which all the code and useful information is uploaded to spread the idea and SGPS so everybody can research about it and get a real good system: [SGPS Project](http://sgpsproject.sourceforge.net/wiki)
 
