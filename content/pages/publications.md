@@ -4,8 +4,11 @@ Category: Main
 [TOC]
 
 ### JCR-indexed
-1. J.V. Gómez, A. Vale, S. Garrido and L. Moreno, __Performance analysis of Fast Marching-based motion planning for autonomous mobile robots in ITER scenarios__, Robotics and Autonomous Systems, Vol.63, Part 1, pp. 36-49, 2015. Impact factor (2013): 1.105, Q3.<br/>[PDF]({filename}/files/pubs/fm2atiter.pdf) - [Video](https://www.youtube.com/watch?v=YiIq7pzgW9k)
+1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__. Journal of Intelligent and Robotic Systems. Accepted December 2014.
 
+2. J. Pardeiro, J. V. Gómez, A. Brunete and F. E. Sandnes, __Sunlight-based Positioning Optimization for Sensor Networks using Evolutionary Algorithms__. International Journal of Distributed Sensor Networks. Accepted November 2014.
+
+1. J.V. Gómez, A. Vale, S. Garrido and L. Moreno, __Performance analysis of Fast Marching-based motion planning for autonomous mobile robots in ITER scenarios__, Robotics and Autonomous Systems, Vol.63, Part 1, pp. 36-49, 2015. Impact factor (2013): 1.105, Q3.<br/>[PDF]({filename}/files/pubs/fm2atiter.pdf) - [Video](https://www.youtube.com/watch?v=YiIq7pzgW9k)
 
 2. A. Valero, J.V. Gómez, S. Garrido and L. Moreno, __The Path to Efficiency: Fast Marching Method for Safer, More Efficient Mobile Robot Trajectories__, IEEE Robotics and Automation Magazine, Vol. 20, No. 4, 2013. Impact factor (2013): 2.319, Q1.<br/>[PDF]({filename}/files/pubs/fm2star.pdf)
 
