@@ -21,7 +21,7 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'files', 'extra']
 PLUGIN_PATHS = ["pelican-plugins"]
 
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/robots.txt': {'path': 'robots.txt'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 #EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
 # Plugins activation
 PLUGINS = ['extract_toc', 'liquid_tags.youtube', 'better_code_samples']
