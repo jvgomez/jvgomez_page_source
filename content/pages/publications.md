@@ -6,7 +6,7 @@ Category: Main
 ### JCR-indexed
 1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__. Journal of Intelligent and Robotic Systems. Accepted December 2014.
 
-2. J. Pardeiro, J. V. Gómez, A. Brunete and F. E. Sandnes, __Sunlight-based Positioning Optimization for Sensor Networks using Evolutionary Algorithms__. International Journal of Distributed Sensor Networks. Accepted November 2014.
+1. J. Pardeiro, J.V. Gómez, A. Brunete, F.E. Sandnes, __Evolutionary Optimization Algorithms for Sunlight-Based Positioning Sensor Networks__, International Journal of Distributed Sensor Networks. Vol. 2014, 2014. Impact Factor (2013): 0.923, Q3.<br/>[Open Access Paper](http://www.hindawi.com/journals/ijdsn/2014/564072/)
 
 1. J.V. Gómez, A. Vale, S. Garrido and L. Moreno, __Performance analysis of Fast Marching-based motion planning for autonomous mobile robots in ITER scenarios__, Robotics and Autonomous Systems, Vol.63, Part 1, pp. 36-49, 2015. Impact factor (2013): 1.105, Q3.<br/>[PDF]({filename}/files/pubs/fm2atiter.pdf) - [Video](https://www.youtube.com/watch?v=YiIq7pzgW9k)
 
