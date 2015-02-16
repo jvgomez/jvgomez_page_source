@@ -20,6 +20,8 @@ Category: Main
 <hr>
 
 ### International Conferences
+1. J.V. Gómez, N. Mavridis and S. Garrido, __Fast marching solution for the social path planning problem__, IEEE International Conference on Robotics and Automation (ICRA'14). Hong Kong, China. June, 2014.<br/>[PDF]({filename}/files/pubs/ICRA14_paper.pdf)
+
 1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__, IEEE International Conference on Autonomous Robot Systems and Competitions (IEEE ICARSC, ROBOTICA14). Espinho, Portugal. May, 2014.<br/>[PDF]({filename}/files/pubs/ROBOTICA14_paper.pdf)
 
 2. J.V. Gómez, N. Mavridis and S. Garrido, __Social Path Planning: Generic Human-Robot Interaction Framework for Robotic Navigation Tasks__, Cognitive Robotics Systems: Replicating Human Actions and Activities, Workshop of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'13). Tokyo, Japan. November, 2013.<br/>[PDF]({filename}/files/pubs/IROS2013_workshop.pdf)
