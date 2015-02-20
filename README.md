@@ -26,10 +26,6 @@ https://github.com/jvgomez/tuxlite_tbs
 If you use other themes, some thinkgs would probably fail.
 
 #####TODO
-- Investigate about display: block in chrome with youtube videos.
-- Investigate about AJimenez, 4th video not working.
-
-
 - Include Google+ social link (with icon).
 - Include ResearchGate social link (with icon).
 - Include YouTube social link (with icon).
