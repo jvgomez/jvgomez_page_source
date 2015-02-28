@@ -4,6 +4,11 @@ Category: Main
 [TOC]
 
 ## Students' Theses
+### 2015
+|		 |		  |		   |
+|:------:|:------:|:------:|
+| [Jose Pardeiro, M.Sc.]({filename}/pages/other_works/theses/jpardeiro_msc.md)<br>FM2 in Turtlebot + ROS<br><img src="{filename}/images/theses/jpardeiro_msc.png" style="width: 200px; height: auto;"/> |
+
 ### 2014
 |		 |		  |		   |
 |:------:|:------:|:------:|
