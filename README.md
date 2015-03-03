@@ -1,11 +1,11 @@
 #### Javier V. Gómez - personal site source
 
 Output hosted at:
-https://jvgomez.github.io
+http://www.javiervgomez.com - https://jvgomez.github.io
 
 Pelican-based static website. Feel free to use whatever you want :)
 
-####DEPENDENCIES
+#### DEPENDENCIES
 In order to be able to create the site with Pelican, the following dependencies must be installed:
 
 
@@ -25,7 +25,19 @@ https://github.com/jvgomez/tuxlite_tbs
 
 If you use other themes, some thinkgs would probably fail.
 
-#####TODO
+#### Developing
+Clone this repo, open a terminal on the folder created and:
+
+    $ pelican
+
+The output folder is what I upload to Github pages. To run locally:
+
+    $ cd output
+    $ python -m SimpleHTTPServer
+
+Open a browser and write the IP:port shown in terminal.
+
+##### TODO
 - Include Google+ social link (with icon).
 - Include ResearchGate social link (with icon).
 - Include YouTube social link (with icon).
