@@ -18,9 +18,11 @@ You can download my [full CV]({filename}/files/docs/JVG_CV.pdf) or check out [my
 I am PhD student in the [RoboticsLab](http://roboticslab.uc3m.es/roboticslab/) at [Carlos III University of Madrid](http://www.uc3m.es/Home).
 
 My research interests interests:
+
 1. high-level planning algorithms: robot formations, previous experience...
 2. low level planning algorithms: improving computational time.
 3. 3D mapping (as a hobby).
+4. GPS-less global positioning systems (as a hobby).
 
 Side interests include open-source robotics, mainly [OMPL](http://ompl.kavrakilab.org), and GPS-less global positioning systems, [SGPS](http://sgpsproject.sourceforge.net/wiki).
 

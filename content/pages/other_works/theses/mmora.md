@@ -26,12 +26,10 @@ This project improves the documentation for the MoveIt! benchmarking capability 
 
 ## Results
 
-{% youtube afa3ppj4uak 400 400 %} {% youtube kl4WAn7JcUs 400 400 %}
-
 <div class="figure align-center" style="width: 100%; height: auto;">
 <img src="{filename}/images/theses/mmora1.png" style="width: 100%; height: auto;"/>
 <p></p>
-<p class="caption">Many poses tested on Manfred robo.</p>
+<p class="caption">Many poses tested on Manfred robot.</p>
 </div>
 
 
