@@ -54,7 +54,7 @@ Now, let us set a velocities map. We will set a relative velocity giving every p
 -->
 </div>
 
-In collaboration with my friends from the [Instituto de Plasmas e Fusão Nuclear](http://www.ipfn.ist.utl.pt/), we have appied FM2 to the __I__nternational __T__hermonuclear __E__xperimental __R__eactor and carried out a very exhaustive analysis. The results were very good: the FM2 properties fit very well in this problem. An optimization procedure is applied after FM2 in order to make the path even smoother and check that the ITER requirements are satisfied.
+In collaboration with my friends from the [Instituto de Plasmas e Fusão Nuclear](http://www.ipfn.ist.utl.pt/), we have appied FM2 to the International Thermonuclear Experimental Reactor and carried out a very exhaustive analysis. The results were very good: the FM2 properties fit very well in this problem. An optimization procedure is applied after FM2 in order to make the path even smoother and check that the ITER requirements are satisfied.
 
 {% youtube ShhX0hc0WR0 260 260 %} {% youtube YiIq7pzgW9k 260 260 %}
 
@@ -62,6 +62,7 @@ In collaboration with my friends from the [Instituto de Plasmas e Fusão Nuclear
 FM2 computes trajectories that are far from obstacles. In other words, the paths go through the _high velocity_ zones. The following question seems obvious: why not to deliberately modify the velocities map so we can guide the trajectory?
 
 Therefore, given a previous path (experience), the __Fast Marching Learning (FML)__ algorithm is able to:
+
 - Reproduce the experience, so that new paths will imitate previous paths.
 - Boost the computation time, since now the FMM wave is directed through an specific path.
 

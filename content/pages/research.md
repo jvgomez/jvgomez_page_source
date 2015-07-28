@@ -25,6 +25,7 @@ There are several different path planning problems and I have explored some of t
 Most of my research is based in the __Fast Marching Method__ and a custom, very useful version: [__Fast Marching Square (FM2)__]({filename}/pages/research/fm2.md).
 
 I am also investigating _sampling-based_ algorithms, focusing on the __Fast Marching Trees (FMT*)__. These algorithms are very fast but it is hard to ensure that they will provide an optimal solution. They work well in many dimensions, where other methods become really slow. In this case, my objective is twofold:
+
 - Try to make the algorithm as fast a possible.
 - Take into account kinematic (and dynamic) constrains.
 

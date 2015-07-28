@@ -26,4 +26,4 @@ In other words, given a 3D point cloud of a room, try to reconstruct its 3D map 
 
 ## Documentation and Source
 - [Report (spanish)]({filename}/files/works/theses/jmoreno_report.pdf)
-- [Github repository]({filename}/jmoreno/code)
+- [Github repository](https://github.com/jvgomez/room_reconstruction)

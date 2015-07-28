@@ -4,11 +4,11 @@ Category: Main
 [TOC]
 
 ### JCR-indexed
-1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__. Journal of Intelligent and Robotic Systems. Accepted December 2014.
+1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__. Journal of Intelligent and Robotic Systems. Pp. 1-17, 2015. Impact Factor (2014): 1.178, Q3.<br/>[PDF]({filename}/files/pubs/form3d.pdf)
 
-1. J. Pardeiro, J.V. Gómez, A. Brunete, F.E. Sandnes, __Evolutionary Optimization Algorithms for Sunlight-Based Positioning Sensor Networks__, International Journal of Distributed Sensor Networks. Vol. 2014, 2014. Impact Factor (2013): 0.923, Q3.<br/>[Open Access Paper](http://www.hindawi.com/journals/ijdsn/2014/564072/)
+1. J. Pardeiro, J.V. Gómez, A. Brunete, F.E. Sandnes, __Evolutionary Optimization Algorithms for Sunlight-Based Positioning Sensor Networks__, International Journal of Distributed Sensor Networks. Vol. 2014, 2014. Impact Factor (2014): 0.923, Q3.<br/>[Open Access Paper](http://www.hindawi.com/journals/ijdsn/2014/564072/)
 
-1. J.V. Gómez, A. Vale, S. Garrido and L. Moreno, __Performance analysis of Fast Marching-based motion planning for autonomous mobile robots in ITER scenarios__, Robotics and Autonomous Systems, Vol.63, Part 1, pp. 36-49, 2015. Impact factor (2013): 1.105, Q3.<br/>[PDF]({filename}/files/pubs/fm2atiter.pdf) - [Video](https://www.youtube.com/watch?v=YiIq7pzgW9k)
+1. J.V. Gómez, A. Vale, S. Garrido and L. Moreno, __Performance analysis of Fast Marching-based motion planning for autonomous mobile robots in ITER scenarios__, Robotics and Autonomous Systems, Vol.63, Part 1, pp. 36-49, 2015. Impact factor (2014): 1.256, Q3.<br/>[PDF]({filename}/files/pubs/fm2atiter.pdf) - [Video](https://www.youtube.com/watch?v=YiIq7pzgW9k)
 
 2. A. Valero, J.V. Gómez, S. Garrido and L. Moreno, __The Path to Efficiency: Fast Marching Method for Safer, More Efficient Mobile Robot Trajectories__, IEEE Robotics and Automation Magazine, Vol. 20, No. 4, 2013. Impact factor (2013): 2.319, Q1.<br/>[PDF]({filename}/files/pubs/fm2star.pdf)
 
@@ -20,7 +20,7 @@ Category: Main
 <hr>
 
 ### International Conferences
-1. J.V. Gómez, N. Mavridis and S. Garrido, __Fast marching solution for the social path planning problem__, IEEE International Conference on Robotics and Automation (ICRA'14). Hong Kong, China. June, 2014.<br/>[PDF]({filename}/files/pubs/ICRA14_paper.pdf)
+1. J.V. Gómez, N. Mavridis and S. Garrido, __Fast marching solution for the social path planning problem__, IEEE International Conference on Robotics and Automation (ICRA'14). Hong Kong, China. June, 2014.<br/>[PDF]({filename}/files/pubs/ICRA14_paper.pdf) - [Video](https://www.youtube.com/watch?v=Rp5Fh25oJsg)
 
 1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__, IEEE International Conference on Autonomous Robot Systems and Competitions (IEEE ICARSC, ROBOTICA14). Espinho, Portugal. May, 2014.<br/>[PDF]({filename}/files/pubs/ROBOTICA14_paper.pdf)
 
