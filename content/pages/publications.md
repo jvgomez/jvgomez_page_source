@@ -4,7 +4,7 @@ Category: Main
 [TOC]
 
 ### JCR-indexed
-1. J.V. Gómez, D. Álvarez, S. Garrido and L. Moreno, __ Fast Methods for Eikonal Equations: an Experimental Survey__. Submitted to ACM Computing Surveys 2015 Impact factor (2014): 4.043, Q1.<br/>[ArXiV](http://arxiv.org/abs/1506.03771)
+1. J.V. Gómez, D. Álvarez, S. Garrido and L. Moreno, __ Fast Methods for Eikonal Equations: an Experimental Survey__. Submitted to ACM Computing Surveys 2015 Impact factor (2014): 4.043, Q1.<br/>[PDF ArXiV](http://arxiv.org/abs/1506.03771)
 
 1. J.V. Gómez, D. Álvarez, S. Garrido and L. Moreno, __Deterministic, Globally Stable Motion Learning with Fast Marching Square__. Soft Computing. Accepted 2015. Impact factor (2014): 1.271.<br/>[PDF]({filename}/files/pubs/learningFM2.pdf)
 
@@ -24,7 +24,7 @@ Category: Main
 <hr>
 
 ### International Conferences
-1. J.A. Starek, J.V. Gómez, E. Schmerling, L. Janson, L. Moreno and M. Pavone, __An Asymptotically-Optimal Sampling-Based Algorithms for Bi-directional Motion Planning__, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’15). Hamburg, Germany. Oct, 2014.<br/>[ArXiV](http://arxiv.org/abs/)
+1. J.A. Starek, J.V. Gómez, E. Schmerling, L. Janson, L. Moreno and M. Pavone, __An Asymptotically-Optimal Sampling-Based Algorithms for Bi-directional Motion Planning__, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’15). Hamburg, Germany. Oct, 2014.<br/>[PDF ArXiV](http://arxiv.org/abs/1507.07602)
 
 1. J.V. Gómez, N. Mavridis and S. Garrido, __Fast marching solution for the social path planning problem__, IEEE International Conference on Robotics and Automation (ICRA'14). Hong Kong, China. June, 2014.<br/>[PDF]({filename}/files/pubs/ICRA14_paper.pdf) - [Video](https://www.youtube.com/watch?v=Rp5Fh25oJsg)
 
