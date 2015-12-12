@@ -7,7 +7,7 @@ Category: Main
 ### 2015
 |		 |		  |		   |
 |:------:|:------:|:------:|
-| [Jose Pardeiro, M.Sc.]({filename}/pages/other_works/theses/jpardeiro_msc.md)<br>FM2 in Turtlebot + ROS<br><img src="{filename}/images/theses/jpardeiro_msc.png" style="width: 200px; height: auto;"/> |
+| [Jose Pardeiro, M.Sc.]({filename}/pages/other_works/theses/jpardeiro_msc.md)<br>FM2 in Turtlebot + ROS<br><img src="{filename}/images/theses/jpardeiro_msc.png" style="width: 200px; height: auto;"/> | [Teresa Fenández]({filename}/pages/other_works/theses/tfernandez.md)<br>SGPS Arduino implementation<br><img src="{filename}/images/theses/tfernandez.png" style="width: 200px; height: auto;"/> | [Álvaro Muñoz]({filename}/pages/other_works/theses/amunoz.md)<br>FM2 integration into OMPL<br><img src="{filename}/images/theses/amunoz.png" style="width: 200px; height: auto;"/> |
 
 ### 2014
 |		 |		  |		   |
