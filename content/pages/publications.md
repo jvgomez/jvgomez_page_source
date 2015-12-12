@@ -8,7 +8,7 @@ Category: Main
 
 1. J.V. Gómez, D. Álvarez, S. Garrido and L. Moreno, __Deterministic, Globally Stable Motion Learning with Fast Marching Square__. Soft Computing. Accepted 2015. Impact factor (2014): 1.271.<br/>[PDF]({filename}/files/pubs/learningFM2.pdf)
 
-1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__. Journal of Intelligent and Robotic Systems. Pp. 1-17, 2015. Impact Factor (2014): 1.178, Q3.<br/>[PDF]({filename}/files/pubs/form3d.pdf)
+1. D. Álvarez, J.V. Gómez, S. Garrido and L. Moreno, __3D Robot Formations Planning With Fast Marching Square__. Journal of Intelligent and Robotic Systems, Vol. 80, No. 3, pp.507-523, 2015. Impact factor (2014): 1.178, Q3.<br/>[PDF]({filename}/files/pubs/form3d.pdf)
 
 1. J. Pardeiro, J.V. Gómez, A. Brunete, F.E. Sandnes, __Evolutionary Optimization Algorithms for Sunlight-Based Positioning Sensor Networks__, International Journal of Distributed Sensor Networks. Vol. 2014, 2014. Impact Factor (2014): 0.923, Q3.<br/>[Open Access Paper](http://www.hindawi.com/journals/ijdsn/2014/564072/)
 
