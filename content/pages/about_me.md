@@ -3,19 +3,19 @@ Category: Main
 
 ![Me at Japan]({filename}/images/me.png)
 
-My name is Javier V. Gómez. I was born on 1987 in Spain. Currently, I live in Madrid (Spain).
+My name is Javier V. Gómez. I was born on 1987 in Spain. Currently, I live in Zurich (Switzerland).
 
 * __Academic__: jvgomez@ing.uc3m.es
 * __GMail__: javvgomez@gmail.com
 * [YouTube channel](http://www.youtube.com/user/ingjotauve)
 * [ResearchGate profile](https://www.researchgate.net/profile/Javier_Gomez11)
 
-[Open source report card](https://osrc.dfm.io/jvgomez/)
-
 You can download my [full CV]({filename}/files/docs/JVG_CV.pdf) or check out [my publications]({filename}publications.md).
 
 ## Info
-I am PhD student in the [RoboticsLab](http://roboticslab.uc3m.es/roboticslab/) at [Carlos III University of Madrid](http://www.uc3m.es/Home).
+__TL;DR:__ I am technology enthusiast!
+
+Robotics and automation Ph.D. from the [RoboticsLab](http://roboticslab.uc3m.es/roboticslab/) at [Carlos III University of Madrid](http://www.uc3m.es/Home). Currently working at [Rapyuta Robotics](http://www.rapyuta-robotics.com/) where I have fun and do cool stuff full-time!
 
 My research interests interests:
 
@@ -32,5 +32,6 @@ My hobbies are mountain biking, hiking and travelling. In fact, I have lived in:
 2. Oslo, Norway.
 3. Abu Dhabi, United Arab Emirates.
 4. Stuttgart, Germany.
-6. Athens, Greece.
-5. San Francisco Bay Area, CA, USA.
+5. Athens, Greece.
+6. San Francisco Bay Area, CA, USA.
+7. Zurich, Switzerland. 
